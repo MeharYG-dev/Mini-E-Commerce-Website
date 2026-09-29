@@ -1,0 +1,18 @@
+.product-toolbar {
+  padding: 25px;
+  margin-bottom: 35px;
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.04);
+}
+
+.product-toolbar .form-label {
+  margin-bottom: 7px;
+}
+
+@media (max-width: 767px) {
+  .product-toolbar {
+    padding: 20px;
+  }
+}

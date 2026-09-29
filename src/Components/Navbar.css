@@ -1,0 +1,100 @@
+.shop-navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Website logo/brand */
+
+.shop-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #212529 !important;
+}
+
+.shop-brand i {
+  font-size: 1.5rem;
+  color: #0d6efd;
+}
+
+/* Navigation links */
+
+.nav-item-link {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  margin-left: 12px;
+
+  color: #343a40 !important;
+  font-weight: 500;
+
+  transition: color 0.3s ease;
+}
+
+.nav-item-link:hover {
+  color: #0d6efd !important;
+}
+
+.nav-item-link i {
+  font-size: 1rem;
+}
+
+/* Cart */
+
+.cart-link {
+  position: relative;
+}
+
+/* Cart item count */
+
+.cart-badge {
+  position: absolute;
+
+  top: -5px;
+  right: -12px;
+
+  min-width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2px 5px;
+
+  background-color: #dc3545;
+  color: white;
+
+  border-radius: 50%;
+
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Mobile */
+
+@media (max-width: 991px) {
+
+  .nav-item-link {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+
+  .cart-badge {
+    position: static;
+
+    margin-left: 4px;
+
+    width: 20px;
+    height: 20px;
+  }
+}
+
